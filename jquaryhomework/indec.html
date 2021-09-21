@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="jquery3.6.0.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="shortcut icon" href="logo.jpg" type="image/x-icon" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="header">
+    <img src="logo.jpg" alt="" srcset="" id="logo">
+    <p class="head">Home</p>
+    <p class="head">Product</p>
+    <p class="head">About US</p>
+    <p class="head">Contact</p>
+</div>
+<div class="main">
+<div class="div1">
+    <p class="title"><i> PRODUCTS LINE UP</i></p><hr >
+
+        <p><i>Men</i></p>
+        <div class="mcards">
+            <div class="mencard">
+                <p class="price">6000</p>
+                <img src="shirt1.jpg" alt="" >
+                <p class="name">HOODIES</p>
+                <p class="code">MO234</p>
+            </div>
+            <div class="mencard">
+                <p class="price">4000</p>
+                <img src="shirt2.jpg" alt="" >
+                <p class="name">MANCHESTER</p>
+                <p class="code">MO034</p>
+            </div>
+            <div class="mencard">
+                <p class="price">5000</p>
+                <img src="shirt3.jpg" alt="" >
+                <p class="name">BLACK SHIRT</p>
+                <p class="code">MO299</p>
+            </div>
+            <div class="mencard">
+                <p class="price">2990</p>
+                <img src="shirt4.jpg" alt="" >
+                <p class="name">BLUE SHIRT</p>
+                <p class="code">MO534</p>
+            </div>
+            <div class="mencard">
+                <p class="price">3000</p>
+                <img src="shirt5.jpg" alt="" >
+                <p class="name">WHITE SHIRT</p>
+                <p class="code">MO204</p>
+            </div>
+            <div class="mencard">
+                <p class="price">4500</p>
+                <img src="shirt6.jpg" alt="" >
+                <p class="name">BAYERN SHIRT</p>
+                <p class="code">MO134</p>
+            </div>
+
+</div>
+
+    <p><i>Women</i></p>
+    <div class="mcards">
+        <div class="mencard">
+            <p class="price">4500</p>
+            <img src="shirt1w.jpg" alt="" >
+            <p class="name">WHITE ADIDAS</p>
+            <p class="code">WO234</p>
+        </div>
+        <div class="mencard">
+            <p class="price">4000</p>
+            <img src="shirt2w.jpg" alt="" >
+            <p class="name">PURPLE ADIDAS</p>
+            <p class="code">WO034</p>
+        </div>
+        <div class="mencard">
+            <p class="price">5000</p>
+            <img src="shirt3w.jpg" alt="" >
+            <p class="name">MIDNIGHT ADIDAS</p>
+            <p class="code">WO299</p>
+        </div>
+        <div class="mencard">
+            <p class="price">1500</p>
+            <img src="shirt4w.jpg" alt="" >
+            <p class="name">SILVER SHIRT</p>
+            <p class="code">WO534</p>
+        </div>
+        <div class="mencard">
+            <p class="price">6500</p>
+            <img src="shirt5w.jpg" alt="" >
+            <p class="name">BLACK SHIRT</p>
+            <p class="code">WO204</p>
+        </div>
+        <div class="mencard">
+            <p class="price">8500</p>
+            <img src="shirt6w.jpg" alt="" >
+            <p class="name">SKYBLUE SHIRT</p>
+            <p class="code">WO134</p>
+        </div>
+</div>
+
+
+</div>
+<div class="div2">
+    <p ><i>Your Cart</i></p>
+    <hr>
+    <div class="userCart">
+       
+    </div>
+    <p id="discountTitle"><i>Discount(15%)</i></p>
+    <hr id="discountHr">
+    <p class="discountPrice" id="discountPrice"> <span class="toclick">Click to see amount</span></p>
+    <p ><i>Delivery</i></p>
+    <hr>
+    <div class="userInfo">
+        <input type="text" class="userName" id="userName"  placeholder="Your Name" required>
+        <input type="number" class="userNumber" id="userNumber" placeholder="Phone Number" required>
+        <input type="text" class="address" id="address" placeholder="Address" required>
+        <select name="item" id="item">
+            <option value="3000">Yangon(+3000 Ks)</option>
+            <option value="5000">Mandalay(+5000 Ks)</option>
+            <option value="6500">Other(+6500 Ks)</option>
+            <option value="10000">International(+10000 Ks)</option>
+        </select>
+    </div>
+    <p ><i>Grand Total</i></p>
+    <hr>
+    <p class="grandPrice" id="grandPrice"></p>
+    <button id="btn">Place Order</button>
+    <div class="reply">
+       
+    </div>
+</div>
+
+</div>
+</body>
+</html>
